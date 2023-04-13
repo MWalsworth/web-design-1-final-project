@@ -3,6 +3,11 @@ html {
   color: black;
   line-height: 1.4;
   font-size: 110%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 h1, h2, h3, h4 {
   font-family: 'Big Shoulders Inline Text', cursive;
@@ -51,7 +56,7 @@ nav a:link {
 }
 nav a:link, ul a:visited {
   color: white;
-  border: 2px solid 8 px;
+  border: 2px solid 8px;
   text-decoration: none;
 }
 
@@ -64,7 +69,6 @@ nav a:hover, ul a:focus {
   display: flex;
   align-items: center;
   padding-bottom: 0;
-  background-color: brown;
 }
 
 .background {
@@ -76,11 +80,11 @@ footer {
 }
  
 .services {
-  background-color: lightgrey;
+  background-color: #fafafa;
 }
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 2em;
 }
 
@@ -109,7 +113,7 @@ button {
   padding: .25em .5em;
   align-self: flex-start;
   border-radius: 4px;
-  margin: 2em 0 2 em 0;
+  margin: 2em 0 2em 0;
   color: white;
   text-decoration: none;
 }
@@ -129,9 +133,9 @@ button {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat (6, 1fr);
+  grid-template-columns: repeat(6,1fr);
 }
-.grid img:nth-child(1) {
+.grid img:nth-child(1){
   grid-column:1/4;
   grid-row: 1;
 }
@@ -160,7 +164,7 @@ button {
   text-align: center;
 }
 
-.h3 {
+.h2 {
   text-align: center;
 }
 .name {
