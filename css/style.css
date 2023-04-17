@@ -2,7 +2,7 @@ html {
   font-family: 'playfair', display;
   color: black;
   line-height: 1.4;
-  font-size: 110%;
+  font-size: 1.125rem;
   box-sizing: border-box;
 }
 
@@ -11,10 +11,10 @@ html {
 }
 h1, h2, h3, h4 {
   font-family: 'Big Shoulders Inline Text', cursive;
-  font-size: 200%;
+  font-size: 2rem;
 }
 .bg-black {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 header {
   display: flex;
